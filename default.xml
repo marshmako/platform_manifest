@@ -479,4 +479,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/moto" name="vendor_moto_shamu" remote="github" revision="mm"/>
+    <project path="vendor/frank" name="vendor_frank" remote="github" revision="mm"/>
 </manifest>
