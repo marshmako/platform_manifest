@@ -52,7 +52,7 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako,broadcom_pdk,generic_fs"  remote="github" revision="mm" />
   <project path="device/lge/mako-kernel" name="device_lge_mako-kernel" groups="device,mako,broadcom_pdk,generic_fs" clone-depth="1" remote="github" revision="mm"  />  
-  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="github" revision="mm" />
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="github" revision="mm-6.0" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -481,6 +481,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/moto" name="vendor_moto_shamu" remote="github" revision="mm"/>
-  <project path="vendor/lge" name="vendor_lge" remote="github" revision="mm"/>
+  <project path="vendor/lge/mako" name="vendor_lge_mako" remote="github" revision="mm"/>
   <project path="vendor/frank" name="vendor_frank" remote="github" revision="mm"/>
 </manifest>
