@@ -483,4 +483,5 @@
   <project path="vendor/moto" name="vendor_moto_shamu" remote="github" revision="mm"/>
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="github" revision="mm"/>
   <project path="vendor/frank" name="vendor_frank" remote="github" revision="mm"/>
+  <project path="external/busybox" name="android_external/busybox" remote="github" revision="cm-13.0" />
 </manifest>
